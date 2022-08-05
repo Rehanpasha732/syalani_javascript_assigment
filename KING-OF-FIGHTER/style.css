@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./images/26ph.gif);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.firstCharacter{
+    margin-left: 30px;
+    margin-top: 300px;
+    height: 300px;
+}
+.secondCharacter{
+
+
+}
