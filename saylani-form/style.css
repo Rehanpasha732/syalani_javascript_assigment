@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_section {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #e2e2ee;
+
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.side_headings {
+
+    color: grey;
+    /* background-color: aqua; */
+    padding: 10px;
+    margin: 5px;
+}
+
+.side_heading_text {
+    padding: 10px;
+}
+
+.sections {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.section_app {
+    background-color: #fff;
+    padding: 10px 10px 0px 10px;
+    color: #8dc666;
+    text-align: center;
+    border: 1px solid #e2e2ee;
+    border-bottom: 0px solid grey
+}
+
+.section_app:hover {
+    cursor: pointer;
+}
+
+.admin {
+    color: #0562a8;
+    background-color: #ebebec;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.admin:hover {
+    cursor: pointer;
+    background-color: #d3d3ee;
+}
+
+/* form */
+.form_section {
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    background-color: #fff;
+    padding: 50px;
+}
+
+.form_drop_down {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    /* padding: 10px; */
+}
+
+.dropdown {
+    margin-right: 30px;
+}
+
+.data {
+    margin: 0px 10px;
+}
+
+input {
+    width: 410px;
+    height: 45px;
+    padding-left: 20px;
+    border: 1px solid #8dc666;
+    border-radius: 5px;
+
+}
+p {
+    color: #0562a8;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0562a8;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+input::placeholder{
+    color: #d3d3ee;
+}
+input:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 5px;
+}
+
+.Select_qualification{
+    width: 870px;
+    border-radius: 5px;
+}
+/* .sub {
+
+} */
+
+.submit_btn {   
+     width: 50%;
+     margin: 10px auto;
+     text-align: center;
+     padding: 10px;
+    /* margin: 10px auto; */
+    background-color: #0562a8;
+    /* padding: 10px; */
+    border-radius: 5px;
+    /* margin-left: 300px; */
+    width: 200px;
+    color: #fff;
+    /* align-items: center; */
+}
+.submit_btn:hover{
+    cursor: pointer;
+}
+
+/* media qurey */
+
+@media only screen and (max-width: 400px) {
+    img {
+        width: 300px;
+    }
+    input{
+        width: 300px;
+    }
+    .input{
+        margin: 10px;
+    }
+  }
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+     <div class="main_section">
+        <div class="header">
+            <div class="logo"><img src="./images/logo.png"></div>
+            <h1 class="heading">Course Registration Form</h1>
+            <div class="side_headings">
+                <span class="side_heading_text">Services</span>
+                <span class="side_heading_text">Education</span>
+                <span class="side_heading_text">Registration</span>
+            </div>
+
+            <div class="sections">
+                <span class="section_app">New Application</span>
+                <span class="admin" onclick="admin()" href="">Admin</span>
+            </div>
+        </div>
+
+
+        <div class="form_section">
+            <!-- <div class="form_drop_down">
+                <div class="dropdown">
+                    <p>Select City</p>
+                    <select class="Select">
+                        <option>Select</option>
+                        <option>Karachi</option>
+                        <option>Lahore</option>
+                        <option>Islamabad</option>
+                        <option>punjab</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Select Course</p>
+                    <select class="Select" name="" id="">
+                        <option>Select</option>
+                        <option>Web & Mobile</option>
+                        <option>Graphic Designing</option>
+                        <option>Mobile Repairing</option>
+                        <option>CCO</option>
+                    </select>
+                </div>
+            </div> -->
+
+            <div class="input">
+                <div class="data">
+                    <p>Name</p><input id="name" placeholder="Enter Your Name" type="text">
+                </div>
+                <div class="data">
+                    <p>Father Name</p> <input id="father" placeholder="Enter Your  Father Name" type="text">
+                </div>
+            </div>
+            <div class="input">
+                <div class="data">
+                    <p>Email</p><input id="email" placeholder="Enter Your Email" type="email">
+                </div>
+                <div class="data" >
+                    <p>Phone</p> <input id="phone" placeholder="Enter Your Phone Number" type="number">
+                </div>
+            </div>
+            <div class="input">
+
+                <div class="data">
+                    <p>Father's CNIC (optional)</p> <input id="father_cnic" placeholder="Father's CNIC (optional)"
+                        type="text">
+                </div>
+                <div class="data">
+                    <p>Date of birth</p><input id="dob" type="date">
+                </div>
+            </div>
+        </div>
+
+        <div class="submit_btn" onclick=" validation()">Submit</div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
